@@ -5,14 +5,14 @@ module.exports = (env, { mode }) => ({
     mode,
     entry: path.resolve(__dirname, 'src', 'index.js'),
     output: {
-        path: path.resolve(__dirname, 'build'),
+        path: path.resolve(__dirname),
         filename: 'bundle.js',
-        clean: true
+        clean: false
     },
     devServer: {
-        static: path.resolve(__dirname, 'build'),
+        static: path.resolve(__dirname),
         port: 8080,
-        open: true,
+        open: false,
     },
     plugins: [
         new HtmlWebpackPlugin({

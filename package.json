@@ -1,7 +1,6 @@
 {
   "name": "final-project",
   "version": "1.0.0",
-  "description": "",
   "main": "./src/index.js",
   "scripts": {
     "start": "webpack serve --mode=development",
@@ -17,8 +16,9 @@
     "css-loader": "^6.6.0",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
-    "webpack": "^5.68.0",
-    "webpack-cli": "^4.9.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.7.4"
-  }
+  },
+  "description": ""
 }
